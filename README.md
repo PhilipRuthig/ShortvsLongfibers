@@ -1,4 +1,4 @@
-# ShortvsLongfibers
+# Human short association fibers are thinner and less myelinated than long fibers
 ![Visualization of raw, predicted and final segmentation](https://i.imgur.com/hX9HMJN.jpeg)
 
 This is a collection of all the scripts used to generate Figures in Ruthig, Edler v.d. Planitz et al (in prep). 
