@@ -10,3 +10,5 @@ This is a collection of all the scripts used to generate Figures in Ruthig, Edle
 `mcmc_CCvsSWM_GEV.ipynb` performs the MCMC modeling and plots all main figures, including supplementary figures S7, S8, and S9. The modeling part requires an installation of PyMC3.
 
 `pymc_env.yml` contains the conda environment required to run the MCMC sampling.
+
+Please find more comprehensive information in the related paper (in prep.)
