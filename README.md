@@ -5,7 +5,7 @@ This is a collection of all scripts, sample data, and other information used to 
 
 `CC` and `SWM` each contain a copy of the complete segmentation pipeline, from raw data to final segmentation of the images. Also included is a validation step for CC and SWM data each, which generates all supplementary data related to validations (Fig. S1-S6). Due to data size limitations, we only include image data of a a sample image each to visualize the process. The text-based (.csv) data of all images are included in the `3_postprocessed` folder in the files `CC_all_results.csv`, `SWM_all_results_parallel.csv` and `SWM_all_results_orthogonal.csv`. Additional information regarding the pipeline can be found at https://github.com/PhilipRuthig/EMtools.
 
-`fig1.ipynb` creates Figure 1 from images at different steps of the pipeline.
+`fig2.ipynb` creates Figure 2 from images at different steps of the pipeline.
 
 `mcmc_CCvsSWM_GEV.ipynb` performs the MCMC modeling and plots all main figures, and remaining supplementary figures. The modeling part requires an installation of PyMC3.
 
