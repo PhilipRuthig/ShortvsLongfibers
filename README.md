@@ -7,7 +7,7 @@ This is a collection of all scripts, sample data, and other information used to 
 
 `fig2.ipynb` creates Figure 2 from images at different steps of the analysis pipeline.
 
-`mcmc_CCvsSWM_GEV.ipynb` performs the MCMC modeling and plots all main figures, including parts for Fig S6 and S7, S8, and S9, S10, S11, S12. The modeling part requires an installation of PyMC3.
+`mcmc_CCvsSWM_GEV.ipynb` performs the MCMC modeling and plots all main figures, including parts for Fig S6-S12. The modeling part requires an installation of PyMC3.
 
 `pymc_env.yml` contains the conda environment required to run the MCMC sampling.
 
