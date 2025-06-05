@@ -1,6 +1,10 @@
 # Human short association fibers are thinner and less myelinated than long fibers
 ![Visualization of raw, predicted and final segmentation](https://i.imgur.com/hX9HMJN.jpeg)
 
+
+[![DOI](https://zenodo.org/badge/820373426.svg)](https://doi.org/10.5281/zenodo.15601201)
+
+
 This is a collection of all scripts, sample data, and other information used to generate the figures in Ruthig, Edler v.d. Planitz et al ([currently in preprint](https://www.biorxiv.org/content/10.1101/2024.10.21.619354v1)). 
 
 `CC` and `SWM` each contain a copy of the complete segmentation pipeline, from raw data to final segmentation of the images. Also included is a validation step for CC and SWM data each, which generates all supplementary data related to validations (Fig. S1-S5). Due to data size limitations, we only include image data of a a sample image each to visualize the process. The text-based (.csv) data of all images are included in each `3_postprocessed` folder in the files `CC/3_postprocessed/CC_anonymized.csv`, `SWM_orthogonal_anonymized.csv` and `SWM_parallel_anonymized.csv`. Additional information regarding the pipeline can be found at https://github.com/PhilipRuthig/EMtools.
