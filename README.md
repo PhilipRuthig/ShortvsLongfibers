@@ -5,7 +5,7 @@
 [![DOI](https://zenodo.org/badge/820373426.svg)](https://doi.org/10.5281/zenodo.15601201)
 
 
-This is a collection of all scripts, sample data, and other information used to generate the figures in Ruthig, Edler v.d. Planitz et al ([currently in preprint](https://www.biorxiv.org/content/10.1101/2024.10.21.619354v1)). 
+This is a collection of all scripts, sample data, and other information used to generate the figures in Ruthig, Edler v.d. Planitz et al ([Published in PLOS Biology](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002906)). 
 
 `CC` and `SWM` each contain a copy of the complete segmentation pipeline, from raw data to final segmentation of the images. Also included is a validation step for CC and SWM data each, which generates all supplementary data related to validations (Fig. S1-S5). Due to data size limitations, we only include image data of a a sample image each to visualize the process. The text-based (.csv) data of all images are included in each `3_postprocessed` folder in the files `CC/3_postprocessed/CC_anonymized.csv`, `SWM_orthogonal_anonymized.csv` and `SWM_parallel_anonymized.csv`. Additional information regarding the pipeline can be found at https://github.com/PhilipRuthig/EMtools.
 
@@ -17,6 +17,4 @@ This is a collection of all scripts, sample data, and other information used to 
 
 `options.json` contains all relevant information for the training of a DenseNet analogous to the one used in the study using Uni-EM (Urakubo et al., 2019)
 
-Please find more comprehensive information in the related paper:
-
-https://www.biorxiv.org/content/10.1101/2024.10.21.619354v1
+Please find more comprehensive information in the related [paper](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002906).
